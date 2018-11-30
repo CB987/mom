@@ -1,0 +1,65 @@
+/*==================
+== WHOLE DOC
+=================*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Hind Guntur', sans-serif;
+    background: #ebecfd;
+}
+
+/*==================
+== Header
+=================*/
+header {
+    position: relative;
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.title {
+    width: 100%;
+    position: fixed;
+    background-image: url("/images/moorfarm.png");
+    text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    outline: 2px solid green;
+    height: 20%;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 8vw;
+    letter-spacing: 2vw;
+    outline: 2px solid blue;
+    width: 100%;
+}
+
+nav {
+    outline: 2px solid orange;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-container a {
+    color: rgba(94, 59, 53, 0.7);
+    text-decoration: none;
+    letter-spacing: 0.30vw;
+    margin: 0 0.20vw;
+    font-size: 2vw;
+    outline: 2px solid yellow;
+    width: 100%;
+}
