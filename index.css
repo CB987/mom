@@ -14,7 +14,9 @@ html, body {
     height: 100%;
     width: 100%;
     font-family: 'Hind Guntur', sans-serif;
+    font-size: calc(1em + 1vw); 
     background: #ebecfd;
+    display: flex;
 }
 
 /*==================
@@ -22,44 +24,88 @@ html, body {
 =================*/
 header {
     position: relative;
-    height: 30%;
+    min-height: 6vmin;
+    max-height: 16vmax;
+    /* height: 30%; */
     width: 100%;
-    /* border: 2px solid red; */
+    outline: 3px solid red;
+    /* overflow: hidden; */
 }
 
-.title {
+.h1-container {
     width: 100%;
-    position: fixed;
+    position: absolute; 
+    top: 0;
+    /* margin-top: 0; */
     background-image: url("/images/moorfarm.png");
+    background-size: cover;
     text-align: center;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     outline: 2px solid green;
-    height: 20%;
-    align-items: center;
+    /* height: 20%; */
+    min-height: 12vmin;
+    max-height: 16vmax;
+    display: flex;
+    /* align-items: center; */
+    /* padding-top: 3%; */
 }
 
-header h1 {
+.h1-container h1 {
     font-size: 8vw;
+    /* overflow:  */
     letter-spacing: 2vw;
+    /* position: relative;
+    top: 0; */
+    /* border-top: 1px; */
     outline: 2px solid blue;
     width: 100%;
+    margin-top: 0;
+    /* height: 100%; */
+    /* height: 15vh; */
+    /* padding-bottom: 0; */
 }
 
-nav {
-    outline: 2px solid orange;
-    justify-content: space-evenly;
+.nav-container {
+    /* outline: 2px solid orange; */
     position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-container a {
     color: rgba(94, 59, 53, 0.7);
     text-decoration: none;
-    letter-spacing: 0.30vw;
-    margin: 0 0.20vw;
+    letter-spacing: 0.15vw;
+    margin: 0 0.25vw;
     font-size: 2vw;
-    outline: 2px solid yellow;
-    width: 100%;
+    /* outline: 2px solid yellow; */
+}
+
+/*==================
+== MEDIA QUERIES
+=================*/
+@media only screen and (min-width: 500px) {
+    header {
+        min-height: 10vh;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    header {
+        min-height: 13vh;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    header {
+        min-height: 15vh;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    header {
+        min-height: 18vh;
+    }
 }
