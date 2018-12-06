@@ -16,7 +16,8 @@ html, body {
     font-family: 'Hind Guntur', sans-serif;
     font-size: calc(1em + 1vw); 
     background: #ebecfd;
-    display: flex;
+    /* display: flex; */
+    /* position: relative; */
 }
 
 /*==================
@@ -24,7 +25,7 @@ html, body {
 =================*/
 header {
     position: relative;
-    min-height: 6vmin;
+    min-height: 12vmin;
     max-height: 16vmax;
     /* height: 30%; */
     width: 100%;
@@ -44,17 +45,17 @@ header {
     -webkit-background-clip: text;
     outline: 2px solid green;
     /* height: 20%; */
-    min-height: 12vmin;
-    max-height: 16vmax;
+    /* min-height: 12vmin;
+    max-height: 16vmax; */
     display: flex;
     /* align-items: center; */
     /* padding-top: 3%; */
 }
 
 .h1-container h1 {
-    font-size: 8vw;
+    font-size: 8vmax;
     /* overflow:  */
-    letter-spacing: 2vw;
+    letter-spacing: 2vmax;
     /* position: relative;
     top: 0; */
     /* border-top: 1px; */
@@ -80,8 +81,28 @@ header {
     text-decoration: none;
     letter-spacing: 0.15vw;
     margin: 0 0.25vw;
-    font-size: 2vw;
+    font-size: 2vmax;
     /* outline: 2px solid yellow; */
+}
+
+/*==================
+== BODY
+=================*/
+.content {
+    width: 100%;
+    position: absolute;
+}
+
+/*==================
+== FOOTER
+=================*/
+footer {
+    position: absolute;
+    right: 0;bottom:0;left:0;
+    text-align: center;
+    color: rgb(94, 59, 53);
+    font-size: 1.25vw;
+    height: 5vmax;
 }
 
 /*==================
