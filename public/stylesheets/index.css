@@ -77,13 +77,31 @@ header {
     width: 100%;
     text-align: center;
     color: rgb(94, 59, 53);
+    display: flex;
+    flex-direction: row;
 }
+
+.img-block {
+    width: 90%;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+} 
+
+figure img {
+    width: 200%;
+    height: auto;
+    margin: 5px;
+}
+
+figcaption {
+    font-size: 12px;
+} 
 
 /*==================
 == FOOTER
 =================*/
 footer {
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     bottom: 0;
     left: 0;
@@ -98,42 +116,23 @@ footer {
 =================*/
 @media only screen and (min-width: 500px) {
     header {
-    width: 100%;
-    top: 0;
-    left: 0; 
-    right: 0;
-    /* outline: 3px solid red; */
-    display: flex;
     flex-direction: column;
 }
 
 .h1-container {
     width: 100%;
-    top: 0;
-    background-image: url("/images/moorfarm.png");
-    background-size: cover;
-    text-align: center;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    /* outline: 2px solid green; */
+    /* display: block; */
 }
 
 .h1-container h1 {
-    letter-spacing: 2.5vmin;
     /* outline: 2px solid blue; */
     width: 100%;
-    margin: 0; 
-    padding: 10px 0;
-    font-size: 40px;
     white-space: nowrap; 
 }
 
 .nav-container {
-    bottom: 0;
     width: 100vw;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
     height: 20%;
 }
 
