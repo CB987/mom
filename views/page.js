@@ -10,11 +10,11 @@ function page(content) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elizabeth Barton</title>
     <link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/stylesheets/index.css">
 </head>
 <body>
 <header>
-<div>
 <span class="h1-container">
 <h1>elizabeth barton</h1>
 </span>
@@ -22,13 +22,11 @@ function page(content) {
 <a href="/home">home</a>
 <a href="/about">about</a>
 <a href="/art-quilts">art quilts</a>
-<a href="/watercolor">watercolors</a>
+<a href="/watercolor">watercolor</a>
 <a href="/acrylic">acrylic</a>
-<a href="/pedagogical-pourboires">pedagogical pourboires</a>
 <a href="/workshops">workshops</a>
 <a href="/contact">contact</a>
 </nav>
-</div>
 </header>
 <div class="content">
 ${content}

@@ -7,6 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const page = require('./views/page');
+const home = require('./views/home');
 
 // ====================================================
 // Serving
@@ -19,6 +20,6 @@ app.listen(9000, () => {
 // Home Page
 // ====================================================
 app.get('/', (req, res) => {
-    const thePage = page();
+    const thePage = page(home());
     res.send(thePage);
 });
