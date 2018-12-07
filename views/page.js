@@ -17,6 +17,7 @@ function page(content) {
 <header>
 <span class="h1-container">
 <h1>elizabeth barton</h1>
+<h4>artist | teacher</h4>
 </span>
 <nav class="nav-container">
 <a href="/home">home</a>

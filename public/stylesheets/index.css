@@ -42,6 +42,7 @@ header {
     -webkit-background-clip: text;
     /* outline: 2px solid green; */
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -50,7 +51,15 @@ header {
     /* outline: 2px solid blue; */
     margin: 0; 
     padding: 10px 0;
-    font-size: 40px;
+    font-size: 45px;
+}
+
+.h1-container h4 {
+    letter-spacing: 2.5vmin;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 15px;
+    white-space: nowrap;
 }
 
 .nav-container {
@@ -67,6 +76,8 @@ header {
     text-decoration: none;
     margin: 0 auto;
     white-space: nowrap;
+    float: right;
+    padding-right: 0;
     /* outline: 2px solid yellow; */
 }
 
@@ -77,18 +88,23 @@ header {
     width: 100%;
     text-align: center;
     color: rgb(94, 59, 53);
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
 }
 
 .img-block {
+    display:flex;
+    flex-direction: row;
     width: 90%;
     margin: 0 auto;
     /* flex-wrap: wrap; */
 } 
 
+.figure {
+
+}
+
 figure img {
-    width: 200%;
+    width: 50%;
     height: auto;
     margin: 5px;
 }
@@ -115,43 +131,45 @@ footer {
 == MEDIA QUERIES
 =================*/
 @media only screen and (min-width: 500px) {
-    header {
-    flex-direction: column;
-}
-
 .h1-container {
-    width: 100%;
-    /* display: block; */
+    width: 80%;
 }
 
 .h1-container h1 {
-    /* outline: 2px solid blue; */
-    width: 100%;
-    white-space: nowrap; 
+    font-size: 50px;
 }
 
-.nav-container {
-    width: 100vw;
-    flex-direction: row;
-    height: 20%;
+.h1-container h4 {
+    font-size: 20px;
 }
 
-.nav-container a {
-    font-size: 12px;
-    color: rgba(94, 59, 53, 0.7);
-    text-decoration: none;
-    margin: 0 auto;
-    white-space: nowrap;
-    /* outline: 2px solid yellow;  */
-}
 footer {
     font-size: 12px;
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
+    .h1-container {
+        width: 85%;
+    }
+    
     .h1-container h1 {
-        font-size: 55px;
+        font-size: 57.5px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    
+    .h1-container h1 {
+        font-size: 65px;
+    }
+
+    .h1-container h4 {
+        font-size: 25px;
+    }
+
+    .nav-container {
+        line-height: 22px;
     }
 
     .nav-container a {
@@ -161,23 +179,32 @@ footer {
 
 @media only screen and (min-width: 950px) {
     .h1-container h1 {
-        font-size: 70px;
+        font-size: 78px;
+    }
+
+    .nav-container {
+        line-height: 25px;
     }
 
     .nav-container a {
         font-size: 20px;
     }
-footer {
-    font-size: 14px;
+
+    footer {
+        font-size: 14px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
+    .h1-container {
+        width: 90%;
+    }
+    
     .h1-container h1 {
-        font-size: 90px;
+        font-size: 85px;
     }
 
-    .nav-container a {
+    .h1-container h4 {
         font-size: 30px;
     }
 } 
