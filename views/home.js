@@ -2,7 +2,7 @@ function home() {
     return `
     <h3>Fiber Art and Watercolor</h3>
     <div class="img-block">
-        <figure class="figure">
+        <figure>
             <a href="/cityscapes"><img src="/images/frontpage1.jpeg" alt="art quilt The Arrogance of Calm"></a>
             <figcaption>Art Quilt: The Arrogance of Calm</figcaption>
         </figure>

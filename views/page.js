@@ -29,9 +29,9 @@ function page(content) {
 <a href="/contact">contact</a>
 </nav>
 </header>
-<div class="content">
+<section class="content">
 ${content}
-</div>
+</section>
 <footer>
 <p>copyright
 <script type="text/javascript">

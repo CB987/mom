@@ -30,6 +30,7 @@ header {
     right: 0;
     /* outline: 3px solid red; */
     display: flex;
+    min-height: 27vh;
 }
 
 .h1-container {
@@ -82,35 +83,41 @@ header {
 }
 
 /*==================
-== BODY
+== CONTENT
 =================*/
 .content {
     width: 100%;
     text-align: center;
     color: rgb(94, 59, 53);
-    /* display: flex; */
+    outline: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.content h3 {
+    outline: 2px solid blue;
 }
 
 .img-block {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 90%;
     margin: 0 auto;
+    outline: 2px solid orange;
     /* flex-wrap: wrap; */
 } 
 
-.figure {
-
-}
-
 figure img {
-    width: 50%;
+    width: 100%;
     height: auto;
-    margin: 5px;
+    /* margin: 2px auto; */
+    outline: 2px solid yellow;
 }
 
 figcaption {
     font-size: 12px;
+    outline: 2px solid green;
 } 
 
 /*==================
@@ -125,6 +132,7 @@ footer {
     color: rgb(94, 59, 53);
     font-size: 8px;
     height: 5vmax;
+    outline: 2px solid purple;
 }
 
 /*==================
