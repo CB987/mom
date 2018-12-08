@@ -63,15 +63,15 @@ header {
     white-space: nowrap;
 }
 
-.nav-container {
-    bottom: 0;
+.nav {
+    /* bottom: 0; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     line-height: 20px;
 }
 
-.nav-container a {
+.nav a {
     font-size: 12px;
     color: rgba(94, 59, 53, 0.7);
     text-decoration: none;
@@ -81,6 +81,44 @@ header {
     padding-right: 0;
     /* outline: 2px solid yellow; */
 }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    font-size: 12px;
+    color: rgba(94, 59, 53, 0.7);
+    text-decoration: none;
+    background: none;
+    margin: 0 auto;
+    border: none;
+    /* white-space: nowrap; */
+    float: right;
+    padding-right: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebecfd;
+    /* min-width: 160px; */
+    /* z-index: 1; */
+}
+
+/* Links inside the dropdown */ 
+.dropdown-content a {
+    color: rgba(94, 59, 53, 0.7);
+    /* padding: 5px 16px; */
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 
 /*==================
 == CONTENT
@@ -103,20 +141,15 @@ header {
 .img-block {
     display:flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     outline: 2px solid orange;
-    background-color: orange;
     /* flex-wrap: wrap; */
 } 
 
-figure {
-
-}
-
 figure img {
-    width: 100%;
-    height: auto;
+    height: 100%;
+    width: auto;
     /* margin: 2px auto; */
     outline: 2px solid yellow;
 }
@@ -124,6 +157,7 @@ figure img {
 figcaption {
     font-size: 12px;
     outline: 2px solid green;
+    white-space: nowrap;
 } 
 
 /*==================
