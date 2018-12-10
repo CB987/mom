@@ -44,11 +44,9 @@ ${content}
 </section>
 <footer>
 <p>copyright
-<script type="text/javascript">
-document.write(new Date().getFullYear());
-</script> Elizabeth Barton. All rights reserved.</p>
+${new Date().getFullYear()}
+Elizabeth Barton. All rights reserved.</p>
 </footer>
-<script src="/index.js"></script>
 </body>
 
 </html>
