@@ -11,6 +11,7 @@
     <li>HTML</li>
     <li>CSS</li>
     <li>Express</li>
+  </ul>
   
 <h4>future upgrades</h4>
   <ul>
