@@ -15,7 +15,7 @@ html, body {
     width: 100%;
     font-family: 'Hind Guntur', sans-serif;
     font-size: calc(1em + 1vw); 
-    background: #ebecfd;
+    background: white;
     display: flex;
     flex-direction: column;
 }
@@ -30,11 +30,11 @@ header {
     right: 0;
     outline: 3px solid red;
     display: flex;
-    min-height: 27vh;
+    height: 105px;
 }
 
 .h1-container {
-    width: 75%;
+    width: 95%;
     top: 0;
     background-image: url("/images/moorfarm.png");
     background-size: cover;
@@ -48,11 +48,11 @@ header {
 }
 
 .h1-container h1 {
-    letter-spacing: 2.5vmin;
+    letter-spacing: 1.5vmin;
     outline: 2px solid blue;
     margin: 0; 
     padding: 10px 0;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .h1-container h4 {
@@ -79,11 +79,11 @@ header {
     color: rgb(94, 59, 53);
     /* outline: 2px solid fuchsia; */
     margin: auto;
-    padding-left: 3%;
-    padding-top: 1.5%;
+    padding-left: 2.5%;
+    padding-top: 1%;
     height: 45px;
     width: 45px;
-    background-color: rgba(73,114,171, 0.5);
+    /* background-color: rgba(73,114,171, 0.5); */
     /* border: 5px solid rgba(73,114,171, 1); */
     border-radius: 5px;
 }
