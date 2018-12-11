@@ -17,38 +17,37 @@ function page(content) {
 </head>
 <body>
 <header>
-<span class="h1-container">
+<span class="header-container">
 <h1>elizabeth barton</h1>
-<h4>artist | teacher</h4>
+<div class="header-h4">
+    <h4>artist</h4><h4>teacher</h4></div>
 </span>
-<nav class="fullNav-container" >
-<a class"fullNav" href="/home">home</a>
-<a class"fullNav" href="/about">about</a>
-            <button class"fullNav" class="dropbtn">art quilts</button>
-            <div class="dropdown-content">
-                <a class"fullNav" href="/cityscapes">cityscapes</a>
-                <a class"fullNav" href="/landscapes">landscapes</a>
-                <a class"fullNav" href="/abstracts">abstracts</a>
-        </div>
-<a class"fullNav" href="/watercolor">watercolor</a>
-<a class"fullNav" href="/acrylic">acrylic</a>
-<a class"fullNav" href="/workshops">workshops</a>
-<a class"fullNav" href="/contact">contact</a>
-</nav>
-<nav class="mobileNav-container">
-    <a <i class="fas fa-ellipsis-v"></i></a>
-    <a class="mobileNav-onclick" href="/home">home</a>
-    <a class="mobileNav-onclick" href="/about">about</a>
-    <button class="mobileNav-onclick" class="dropbtn">art quilts</button>
+<nav class="mobile-menu">
+    <div class="dropdown">
+        <button class="mobileNav-container" class="dropbtn"><a <i class="fas fa-ellipsis-v"></i></a></button>
         <div class="dropdown-content">
-            <a class="mobileNav-onclick" href="/cityscapes">cityscapes</a>
-            <a class="mobileNav-onclick" href="/landscapes">landscapes</a>
-            <a class="mobileNav-onclick" href="/abstracts">abstracts</a>
+            <a class="mobileNav-onclick" href="/home">home</a>
+            <a class="mobileNav-onclick" href="/about">about</a>
+            <a class="mobileNav-onclick" class="inner-menu" href="/cityscapes">fiber: cityscapes</a>
+            <a class="mobileNav-onclick" class="inner-menu" href="/landscapes">fiber: landscapes</a>
+            <a class="mobileNav-onclick" href="/abstracts">fiber: abstracts</a>
+            <a class="mobileNav-onclick" href="/watercolor">paint: watercolor</a>
+            <a class="mobileNav-onclick" href="/acrylic">paint: acrylic</a>
+            <a class="mobileNav-onclick" href="/workshops">workshops</a>
+            <a class="mobileNav-onclick" href="/contact">contact</a>
+        </div>
     </div>
-    <a class="mobileNav-onclick" href="/watercolor">watercolor</a>
-    <a class="mobileNav-onclick" href="/acrylic">acrylic</a>
-    <a class="mobileNav-onclick" href="/workshops">workshops</a>
-    <a class="mobileNav-onclick" href="/contact">contact</a>
+</nav>
+<nav class="fullNav-container" >
+    <a class="fullNav" href="/home">home</a>
+    <a class="fullNav" href="/about">about</a>
+    <a class="fullNav" href="/cityscapes">fiber: cityscapes</a>
+    <a class="fullNav" href="/landscapes">fiber: landscapes</a>
+    <a class="fullNav" href="/abstracts">fiber: abstracts</a>
+    <a class="fullNav" href="/watercolor">paint: watercolor</a>
+    <a class="fullNav" href="/acrylic">paint: acrylic</a>
+    <a class="fullNav" href="/workshops">workshops</a>
+    <a class="fullNav" href="/contact">contact</a>
 </nav>
 </header>
 <section class="content">
