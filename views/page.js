@@ -24,9 +24,9 @@ function page(content) {
 </span>
 <nav class="mobile-menu">
     <div class="dropdown">
-        <button class="mobileNav-container" class="dropbtn"><a <i class="fas fa-ellipsis-v"></i></a></button>
+        <button class="mobileNav-container" class="dropbtn"><a><i class="fas fa-ellipsis-v"></i></a></button>
         <div class="dropdown-content">
-            <a class="mobileNav-onclick" href="/home">home</a>
+            <a class="mobileNav-onclick" href="/">home</a>
             <a class="mobileNav-onclick" href="/about">about</a>
             <a class="mobileNav-onclick" class="inner-menu" href="/cityscapes">fiber: cityscapes</a>
             <a class="mobileNav-onclick" class="inner-menu" href="/landscapes">fiber: landscapes</a>
@@ -39,7 +39,7 @@ function page(content) {
     </div>
 </nav>
 <nav class="fullNav-container" >
-    <a class="fullNav" href="/home">home</a>
+    <a class="fullNav" href="/">home</a>
     <a class="fullNav" href="/about">about</a>
     <a class="fullNav" href="/cityscapes">fiber: cityscapes</a>
     <a class="fullNav" href="/landscapes">fiber: landscapes</a>

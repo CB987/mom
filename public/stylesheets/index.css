@@ -41,32 +41,41 @@ header {
     text-align: center;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    background-clip: text;
+    color: chartreuse;
     outline: 2px solid green;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
+    align-content: space-around;
 }
 
 .header-container h1 {
     letter-spacing: 1.5vmin;
     outline: 2px solid blue;
-    margin: 0; 
-    padding: 5px 0 0 0;
-    font-size: 30px;
+    margin: 0 auto; 
+    padding: 0 auto;
+    font-size: 20px;
     /* width: 100%; */
     /* flex-grow: 15; */
 }
 
 .header-h4 {
+    /* float: right; */
+    /* right: 0; */
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
+    outline: 1px solid skyblue;
+    /* margin-right: 0; */
 }
+
 .header-container h4 {
     letter-spacing: 1vmin;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    /* padding: 0 auto;  */
     /* width: 20%; */
-    font-size: 15px;
+    font-size: 13px;
     /* flex-grow: 3; */
     /* white-space: nowrap; */
     outline: 2px solid chartreuse;
@@ -75,21 +84,18 @@ header {
 /*==================
 == MOBILE NAV
 =================*/
-.mobile-menu {
-    outline: 1px solid black;
-    /* flex-grow: 1; */
-}
-
 .mobileNav-container {
     display: inline-block;
     /* position: relative; */
-    font-size: 30px;
-    align-content: center;
+    font-size: 20px;
+    align-items: center;
     justify-content: center;
     color: rgb(94, 59, 53);
     outline: 2px solid fuchsia;
+    background-color: #ebecfd;
+    border: none;
     /* margin: 2%; */
-    height: 75px;
+    height: 55px;
 }
 
 .dropdown-content {
@@ -160,38 +166,68 @@ header {
     font-size: 12px;
     outline: 2px solid purple;
     margin: 0 5px;
+    list-style-type: none;
 }
 
 .content h6 {
     margin: 10px 0 0 0;
 }
+
 .img-block {
-    width: 100%;
-    height: 200px;
-    margin: 0 auto;
+    /* width: 100%; */
+    /* height: 300px; */
+    /* margin: 0 auto; */
     outline: 2px solid orange;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap */
 } 
 
-figure {
-    display: block;
+figure { /*this one container for size*/
+    /* display: inline-block; */
+    /* text-align: center; */
+    /* max-height: 300px;
+    max-width: 300px;
+    height: auto;*/
+    width: 75%; 
+    outline: 2px solid fuchsia;
 }
 
 figure img {
-    height: 100%;
-    width: auto;
+    /* /* height: 250px; */
+    width: 100%; 
     outline: 2px solid yellow;
 }
 
 figcaption {
     font-size: 12px;
+    /* height: 250px; */
     outline: 2px solid green;
     white-space: nowrap;
+    align-items: center;
 } 
 
 .about {
-    height: 160px;
-    outline: 2px solid green;
+    outline: 1px solid skyblue;
+    width: 200px;
+    height: 200px;
     margin: 2px auto;
+}
+
+.about img{
+    height: 100%;
+    width: auto;
+    outline: 2px solid green;
+}
+
+.contact {
+    display: flex;
+    height: 1000px;
+}
+
+.bottom {
+    /* color: blue;
+    margin-bottom: 5px; */
 }
 /*==================
 == FOOTER
@@ -213,17 +249,21 @@ footer {
 == MEDIA QUERIES
 =================*/
 @media only screen and (min-width: 500px) {
+    header {
+        height: 70px;
+    }
+    
     .header-container h1 {
-    font-size: 30px;
+        font-size: 34px;
     }
 
     .header-container h4 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
-    figure {
+    /* figure {
         width: 25%;
-    }
+    } */
 
     .img-block {
         flex-direction: row;
@@ -237,33 +277,47 @@ footer {
 
 @media only screen and (min-width: 600px) {
     header {
-        height: 105px;
+        height:85px;
     }
     
     .header-container h1 {
-        font-size: 40px;
+        font-size: 45px;
+    }
+
+    .header-container h4 {
+        font-size: 20px;
     }
 }
 
 @media only screen and (min-width: 700px) {
     header {
-        height: 120px;
-    }
-    
-    .header-container {
-        width: 95%;
+        height: 95px;
     }
 
     .header-container h1 {
-        font-size: 62px;
+        font-size: 58px;
     }
 
     .header-container h4 {
         font-size: 25px;
     }
+
+    figure { 
+        width: 40%;
+    }
+
+    .img-block  {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 950px) {
+    header {
+        height:150px;
+    }
+    
     .header-container h1 {
         font-size: 78px;
     }
@@ -274,24 +328,18 @@ footer {
 
     .fullNav-container {
         display: flex;
-    }
-
-    .mobileNav {
-        display:none;
+        border: 1px lime solid;
     }
 
     .fullNav {
     display: flex;
     flex-direction: column;
+    
     }
 
-    /* .nav-container {
-        line-height: 22px;
+    figure { 
+        width: 30%;
     }
-
-    .nav-container a {
-        font-size: 15px;
-    } */
 
     footer {
         font-size: 14px;

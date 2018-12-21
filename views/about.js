@@ -11,7 +11,7 @@ function about() {
     <h6>Biography</h6>
     <p>I was born in York, England, educated in England and U.S.A., obtained a Ph.D  and emigrated to U.S.A.  Whilst working in the health service at the University of Georgia, I began to make quilts, focusing on Art Quilts with the encouragement of an NEA grant and acceptance into renowned Quilt National art show with my 13th quilt!</p>
     <h6>Solo Exhibitions</h6>
-    <ul>
+    <ul class="whatever">
     <li>2018 Athens Regional Public Library (date TBD)</li>
     <li>​2018 Athens Academy Gallery (date TBD)</li>
     <li>2017 Bulloch Hall, Atlanta, GA</li>
@@ -82,16 +82,16 @@ function about() {
     </ul>
     <h6>Residencies</h6>
     <ul>
-    <li>October 2005 Brisons Veor, Cornwall, UK</li>
     <li>August 2006 Asilomar, Monterey, CA </li>
+    <li>October 2005 Brisons Veor, Cornwall, UK</li>
     </ul>
     <h6>Awards and Grants (selected)</h6>
     <ul>
-    <li>2013, First place 2D OCAF,</li>
+    <li>2013 First place 2D OCAF,</li>
     <li>AAA award Lyndon House Art Center, GA</li>
-    <li>2009, First in class, Celebrating GA Women Artists, Marietta Art Museum</li>
+    <li>2009 First in class, Celebrating GA Women Artists, Marietta Art Museum</li>
     <li>2006 Juror’s Choice (Lloyd Herman) Denton, Tx</li>
-    <li>.2006 Juror’s Choice (Carla Hanzal, Mint Museum), Southworks Art Show.</li>
+    <li>2006 Juror’s Choice (Carla Hanzal, Mint Museum), Southworks Art Show.</li>
     <li>2006 Purchase Award, Decatur GA Arts Festival</li>
     <li>2005 Best of Show, Purchase Award, Highlands Art Show.</li>
     <li>2005 Viewers’ Choice, Decatur Arts Festival</li>
@@ -110,13 +110,13 @@ function about() {
     </ul>
     <h6>Bibliography (selected)</h6>
     <ul>
-    <li>2013: Working in a Series by Elizabeth Barton, C&T</li>
-    <li>2013: Inspired to Design by Elizabeth Barton, C&T</li>
+    <li>2013 Working in a Series by Elizabeth Barton, C&T</li>
+    <li>2013 Inspired to Design by Elizabeth Barton, C&T</li>
     <li>2011 Architectural Quilts, a book of postcards, C&T</li>
     <li>2010 Quilting Arts magazine, July issue. Article on Industrial landscape quilts.</li>
     <li>2009 500 Quilts, Lark Books (3 quilts)</li>
     <li>2004 Fiberarts, Jan/Feb, p52-53.</li>
-    <li>2003, Atlanta Journal Constitution. Dec. 21 st.</li>
+    <li>2003 Atlanta Journal Constitution. Dec. 21 st.</li>
     <li>2003 American Quilter, Spring, 2003 p 40</li>
     <li>2002 The Craft Report, July, p 11</li>
     <li>2002 Niche, summer, p 40.</li>
@@ -144,4 +144,4 @@ function about() {
     `;
 }
 
-module.exports = about
+module.exports = about;
