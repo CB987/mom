@@ -1,17 +1,20 @@
 function about() {
     return `
     <h3>about me</h3>
+    <div class="about-me">
     <div class="img-block">
         <figure class="about">
             <img src="/images/about.jpeg" alt="me explaining">
         </figure>
     </div>
+    <div>
     <h6>Artist Statement</h6>
     <p>I make wall hangings from layers of cloth that I have painted or dyed, cut into pieces, and reassembled.  It’s like painting with fabric, the benefit of the fabric being that if you don’t like it in one place, you can move it to another. The imagery I depict is related to places I have seen.  I wish to explore the beauty of everyday environments, including cityscapes, industrial, and rural landscapes.    I want to create a sense of place but also reveal the dynamic bones of the scene.  I enjoy working in series. Reflected light, translucency and the effects of time are recurring themes; repeated patterns of natural or architectural forms are a leifmotif.   The aim is to make work that glows with light and is rich with color and nuance; a work in which the unified composition is satisfying, but the details are fascinating.  </p>
     <h6>Biography</h6>
     <p>I was born in York, England, educated in England and U.S.A., obtained a Ph.D  and emigrated to U.S.A.  Whilst working in the health service at the University of Georgia, I began to make quilts, focusing on Art Quilts with the encouragement of an NEA grant and acceptance into renowned Quilt National art show with my 13th quilt!</p>
+    <div class='awards-lists'>
     <h6>Solo Exhibitions</h6>
-    <ul class="whatever">
+    <ul>
     <li>2018 Athens Regional Public Library (date TBD)</li>
     <li>​2018 Athens Academy Gallery (date TBD)</li>
     <li>2017 Bulloch Hall, Atlanta, GA</li>
@@ -141,6 +144,9 @@ function about() {
     <li>Arrowmont School of Arts and Crafts, TN.</li>
     <li>Ph.D. Leeds University, UK </li>
     </ul>
+    </div>
+    </div>
+    </div>
     `;
 }
 

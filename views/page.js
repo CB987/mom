@@ -31,8 +31,8 @@ function page(content) {
             <a class="mobileNav-onclick" class="inner-menu" href="/cityscapes">fiber: cityscapes</a>
             <a class="mobileNav-onclick" class="inner-menu" href="/landscapes">fiber: landscapes</a>
             <a class="mobileNav-onclick" href="/abstracts">fiber: abstracts</a>
-            <a class="mobileNav-onclick" href="/watercolor">paint: watercolor</a>
-            <a class="mobileNav-onclick" href="/acrylic">paint: acrylic</a>
+            <a class="mobileNav-onclick" href="/watercolors">paint: watercolor</a>
+            <a class="mobileNav-onclick" href="/acrylics">paint: acrylic</a>
             <a class="mobileNav-onclick" href="/workshops">workshops</a>
             <a class="mobileNav-onclick" href="/contact">contact</a>
         </div>
@@ -44,8 +44,8 @@ function page(content) {
     <a class="fullNav" href="/cityscapes">fiber: cityscapes</a>
     <a class="fullNav" href="/landscapes">fiber: landscapes</a>
     <a class="fullNav" href="/abstracts">fiber: abstracts</a>
-    <a class="fullNav" href="/watercolor">paint: watercolor</a>
-    <a class="fullNav" href="/acrylic">paint: acrylic</a>
+    <a class="fullNav" href="/watercolors">paint: watercolor</a>
+    <a class="fullNav" href="/acrylics">paint: acrylic</a>
     <a class="fullNav" href="/workshops">workshops</a>
     <a class="fullNav" href="/contact">contact</a>
 </nav>
