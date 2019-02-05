@@ -1,7 +1,12 @@
 function watercolors() {
     return `
 <h3>watercolors</h3>
-    <p>These are original watercolors, not prints. Unless otherwise indicated, most are 10" by 14", ( 16" by 20" when matted).  Exceptions are noted below. For local pickup, 10" by 14" are $75 unmatted, $80 matted, and $180 matted and framed. 22" by 15" is $150 for unmatted, $155 matted, and $275 matted and framed. Please contact me for availability.</p>
+    <p>These are original watercolors, not prints. <br />
+    They measure 10" by 14" unmatted, 16" by 20" when matted. <br />
+    Only unmatted work can be mailed (USA only):  price $85 includes mailing. <br />
+    For delivery or pick up in the Athens, GA area: <br />
+    $85 matted <br />
+    $195 matted and framed. </p>
     
     <div class="paypal">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
