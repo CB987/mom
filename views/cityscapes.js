@@ -4,12 +4,19 @@ function cityscapes() {
     <p>All work is available for purchase unless otherwise indicated.</p>
     <div class="img-block cityscapes">
         <figure>
-            <img src="/images/city1.jpeg" alt="Athens, GA, Summer Light 39"hx26"w">
-            <figcaption>Athens, GA, Summer Light 39"hx26"w $3400/figcaption>
+            <img src="/images/AthensSummerLight.jpeg" alt="Athens, GA, Summer Light 39"hx26"w">
+            <figcaption>Athens, GA, Summer Light (not available)</figcaption>
         </figure>
         <figure>
             <img src="/images/city2.jpeg" alt="Rainy, Rainy Night 35"hx58.5"w">
-            <figcaption>Rainy, Rainy Night 35"hx58.5"w $2900</figcaption>
+            <figcaption>Rainy, Rainy Night 35"hx58.5"w $2900 <br /> 
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="YK675W6NXBFJN">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            </figcaption>
         </figure>
         <figure>
             <img src="/images/city3.jpeg" alt="Pump, Baby, Pump 42"hx53"w">
