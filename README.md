@@ -20,4 +20,4 @@
   <li>v3. w/ SQL backend </li>
   <li>v4. w/ UI that mom can add to... image list items, awards/publications list items, text????</li>
   </ul>
-  <p>So you can see that my mom's site is actually my playground and testing site, only with the accountability that it is actually a real site, so it may never be truly finished, as the more I learn, the more I come up with upgrades for it. Currently deployed at elizabethbarton.knitscode.com until it is ready for the general public.</p>
+  <p>So you can see that my mom's site is actually my playground and testing site, only with the accountability that it is actually a real site, so it may never be truly finished, as the more I learn, the more I come up with upgrades for it. Currently deployed at  <a href="elizabethbarton.knitscode.com" target="blank">elizabethbarton.knitscode.com</a> until it is ready for the general public.</p>
