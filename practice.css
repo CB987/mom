@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+figure {
+    width: 27%;
+    /* yes, but we're trying to break it :) */
+    /* display: inline-block; */
+    outline: 1px solid orange;
+    margin: 0;
+}
+
+figure img {
+    outline: 1px solid red;
+    width: 100%;
+}
+
+.cityscapes {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 300px;
+    border: 5px solid yellow;
+    outline: 5px solid blue;
+
+}
+
