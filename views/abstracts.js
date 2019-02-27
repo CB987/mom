@@ -4,8 +4,8 @@ function abstracts() {
     <p>All work is available for purchase unless otherwise indicated.</p>
     <div class="img-block abstracts">
         <figure>
-            <img src="/images/StrengthQuietWindows.jpeg" alt="The Strength of Quiet Windows 41"hx55"w">
-            <figcaption>The Strength of Quiet Windows 41"hx55"w $3200</figcaption>
+            <img src="/images/strengthQuietWindows.jpeg" alt="The Strength of Quiet Windows 41"hx55"w">
+            <figcaption>The Strength of Quiet Windows 55"hx41"w $3200</figcaption>
         </figure>
         <figure>
             <img src="/images/Overture.jpeg" alt="Overture 46.5"hx35"w">
@@ -41,7 +41,7 @@ function abstracts() {
         </figure>
         <figure>
             <img src="/images/Runner.jpeg" alt="Runner 31"hx55"w">
-            <figcaption>Runner 31"hx55"w< $3400/figcaption>
+            <figcaption>Runner 31"hx55"w< $3400</figcaption>
         </figure>
         </div>
     `
