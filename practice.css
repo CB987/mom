@@ -21,6 +21,7 @@ figure {
 figure img {
     outline: 1px solid red;
     width: 100%;
+    transition: all 500ms;
 }
 
 .cityscapes {
@@ -33,6 +34,12 @@ figure img {
     min-height: 300px;
     border: 5px solid yellow;
     outline: 5px solid blue;
-
 }
 
+figure img .big {
+    transform: scale(2.5);
+}
+
+figure:hover {
+    transform: scale(1.10)
+}
