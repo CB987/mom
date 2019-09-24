@@ -5,6 +5,7 @@
   <ul>
     <li>Just make it look better, add some css, make sure things line up with each other and are consistent across pages</li>
     <li>PayPal</li>
+    <li>Need to fix header so it works on safari too... https://css-tricks.com/css-techniques-and-effects-for-knockout-text/ </li>
   </ul>
 <h4>technologies used</h4>
   <ul>
